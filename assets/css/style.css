@@ -1,0 +1,408 @@
+.block-number {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8125em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #191919;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out
+}
+
+.block-number:hover {
+  opacity: 1
+}
+
+.block-number::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  margin-bottom: 2px;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 3px solid #191919
+}
+
+.block-number a:hover,
+.block-number a:focus {
+  color: #191919
+}
+
+.demo-section .main-content .section,
+.demo-topbar .main-content .topbar,
+.demo-navbar .main-content .navbar,
+.demo-header .main-content .header,
+.demo-footer .main-content .footer {
+  margin: 30px 20px 100px;
+  border: 1px solid #f5f6f7;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05)
+}
+
+.demo-topbar .main-content .topbar,
+.demo-navbar .main-content .navbar {
+  position: static;
+  margin: 0
+}
+
+.header-text {
+  z-index: 11;
+}
+
+.mark-underline-dark {
+  padding-bottom: 2px;
+  border-bottom: 3px dotted #323d47;
+}
+
+.right-content {
+  position: relative;
+  min-height: 370px;
+  width: 571px;
+}
+
+.screen {
+  position: relative;
+  z-index: 5;
+  right: 44px;
+  bottom: 211px;
+}
+
+img.shadows {
+  position: absolute;
+  z-index: 4;
+  bottom: 142px;
+  right: -156px;
+  max-width: none;
+  opacity: 0.8 !important;
+}
+
+.spheres {
+  position: relative;
+  right: -167px;
+  bottom: -230px;
+  transform: translateX(-120px)
+}
+
+.spheres img {
+  border-radius: 0.25rem;
+  max-width: none;
+}
+
+.spheres a {
+  position: absolute;
+}
+
+.spheres span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+}
+
+.spheres a:nth-child(1) {
+  -webkit-animation: shortfloat 12s infinite;
+  animation: shortfloat 12s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  right: 6px;
+  bottom: 257px
+}
+
+.spheres a:nth-child(2) {
+  -webkit-animation: shortfloat 9s infinite;
+  animation: shortfloat 9s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  right: 81px;
+  bottom: 216px;
+  z-index: 10;
+}
+
+.spheres a:nth-child(3) {
+  -webkit-animation: float 12s infinite;
+  animation: float 12s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  right: 122px;
+  bottom: 309px;
+  z-index: 9;
+}
+
+.spheres a:nth-child(4) {
+  -webkit-animation: longfloat 15s infinite;
+  animation: longfloat 15s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  right: 159px;
+  bottom: 366px;
+  z-index: 10;
+}
+
+.spheres a:nth-child(5) {
+  -webkit-animation: float 14s infinite;
+  animation: float 14s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  right: 0px;
+  bottom: 319px;
+  z-index: 10;
+}
+
+.spheres a:nth-child(6) {
+  -webkit-animation: shortfloat 9s infinite;
+  animation: shortfloat 9s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  right: 143px;
+  bottom: 355px;
+}
+
+.spheres a:nth-child(7) {
+  -webkit-animation: float 11s infinite;
+  animation: float 11s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  right: 184px;
+  bottom: 251px;
+  z-index: 9;
+}
+
+.spheres a:nth-child(8) {
+  -webkit-animation: float 10s infinite;
+  animation: float 10s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 181px;
+  right: 45px;
+}
+
+.spheres a:nth-child(9) {
+  -webkit-animation: shortfloat 9s infinite;
+  animation: shortfloat 9s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 339px;
+  right: 596px;
+}
+
+.spheres a:nth-child(10) {
+  -webkit-animation: longfloat 10s infinite;
+  animation: longfloat 10s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 393px;
+  right: 703px;
+  z-index: 10;
+}
+
+.spheres a:nth-child(11) {
+  -webkit-animation: float 11s infinite;
+  animation: float 11s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 390px;
+  right: 725px;
+  z-index: 9;
+}
+
+.spheres a:nth-child(12) {
+  -webkit-animation: shortfloat 13s infinite;
+  animation: shortfloat 13s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 464px;
+  right: 748px;
+  z-index: 8;
+}
+
+.spheres a:nth-child(13) {
+  -webkit-animation: float 8s infinite;
+  animation: float 8s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 297px;
+  right: 650px;
+  z-index: 10;
+}
+
+.spheres a:nth-child(14) {
+  -webkit-animation: shortfloat 10s infinite;
+  animation: shortfloat 10s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 463px;
+  right: 692px;
+}
+
+.spheres a:nth-child(15) {
+  -webkit-animation: float 13s infinite;
+  animation: float 13s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 255px;
+  right: 631px;
+}
+
+.spheres a:nth-child(16) {
+  -webkit-animation: float 12s infinite;
+  animation: float 12s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 531px;
+  right: 694px;
+}
+
+.spheres a:nth-child(17) {
+  -webkit-animation: longfloat 13s infinite;
+  animation: longfloat 13s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 536px;
+  right: 753px;
+  z-index: 10;
+}
+
+.spheres a:nth-child(18) {
+  -webkit-animation: shortfloat 12s infinite;
+  animation: shortfloat 12s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 604px;
+  right: 800px;
+}
+
+.spheres a:nth-child(19) {
+  -webkit-animation: shortfloat 9s infinite;
+  animation: shortfloat 9s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 619px;
+  right: 828px;
+}
+
+.spheres a:nth-child(20) {
+  -webkit-animation: shortfloat 8s infinite;
+  animation: shortfloat 8s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 475px;
+  right: 667px;
+}
+
+.spheres a:nth-child(21) {
+  -webkit-animation: shortfloat 9s infinite;
+  animation: shortfloat 9s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  bottom: 441px;
+  right: 793px;
+  z-index: 10;
+}
+
+@keyframes shortfloat {
+  0% { transform: translatey(0px); }
+  50% { transform: translatey(-8px); }
+  100% { transform: translatey(0px); }
+}
+
+@-webkit-keyframes shortfloat {
+  0% { -webkit-transform: translatey(0px); }
+  50% { -webkit-transform: translatey(-8px); }
+  100% { -webkit-transform: translatey(0px); }
+}
+
+@keyframes float {
+	0% { transform: translatey(0px); }
+	50% { transform: translatey(-15px); }
+	100% { transform: translatey(0px); }
+}
+
+@-webkit-keyframes float {
+	0% { -webkit-transform: translatey(0px); }
+	50% { -webkit-transform: translatey(-15px); }
+	100% { -webkit-transform: translatey(0px); }
+}
+
+@keyframes longfloat {
+	0% { transform: translatey(0px); }
+	50% { transform: translatey(-20px); }
+	100% { transform: translatey(0px); }
+}
+
+@-webkit-keyframes longfloat {
+	0% { -webkit-transform: translatey(0px); }
+	50% { -webkit-transform: translatey(-20px); }
+	100% { -webkit-transform: translatey(0px); }
+}
+
+
+
+@-webkit-keyframes wobble {
+  0% {
+    -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+    transform: rotate(-1deg) translate(-5px, -5px)
+  }
+  50% {
+    -webkit-transform: rotate(1deg) translate(5px, 5px);
+    transform: rotate(1deg) translate(5px, 5px)
+  }
+  100% {
+    -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+    transform: rotate(-1deg) translate(-5px, -5px)
+  }
+}
+
+@keyframes wobble {
+  0% {
+    -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+    transform: rotate(-1deg) translate(-5px, -5px)
+  }
+  50% {
+    -webkit-transform: rotate(1deg) translate(5px, 5px);
+    transform: rotate(1deg) translate(5px, 5px)
+  }
+  100% {
+    -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+    transform: rotate(-1deg) translate(-5px, -5px)
+  }
+}
+
+@media (max-width: 400px) {
+  body>.footer .social a:last-child,
+  body>.footer .nav a:last-child {
+    display: none
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.gradient-light {
+  background-image: linear-gradient(36deg, #ccd6e4 5%, #f3f8fa 90%);
+}
+
+.gradient-blue {
+  background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+
+.gradient-purple {
+  background-image: linear-gradient(-45deg, #667eea 0%, #764ba2 100%);
+}
+
+.fill-lightblue {
+  background-color: #a4cddc;
+}
+
+.gradient-lightblue {
+  background-image: linear-gradient(-225deg, #cae6f1 0%, #b5d9e9 100%);
+}
+
+.gradient-mailchimp {
+  background-image: linear-gradient(135deg, #f9f7ff 0%, #fff 50%, #f6f3ff 100%);
+}
+
+.footer {
+  font-size: 0.75rem;
+}
