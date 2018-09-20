@@ -232,7 +232,7 @@
               </p>
 
               <p class="lead">
-                I specialize in JavaScript (ES6+) but I also like to use, HTML & CSS, Node, React, Redux, jQuery, Sass, Webpack, Gulp, Git and other modern technologies. I'm also an avid user of Photoshop.
+                I specialize in JavaScript (ES6+) but I also like to use, HTML & CSS, Node, React, Redux, jQuery, Sass, Webpack, Gulp, Git and other modern technologies. Currently I'm working (and having a lot of fun) in Python.
                 If you want to get in touch, feel free to email me at hello@clintjansen.com. You can also find me on <a href="https://github.com/clintjansen" target="_blank">GitHub</a>.
               </p>
             </div>
@@ -284,7 +284,9 @@
 
                     <li>
                       <strong>Address</strong>
-                      <a href="{{address}}">{{address}}</a>
+                      <a href="{{address}}" target="_blank">
+                        {{#if link}}{{link}}{{else}}{{address}}{{/if}}
+                      </a>
                     </li>
                   </ul>
                 </div>
